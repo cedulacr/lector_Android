@@ -19,7 +19,7 @@ tools:context="com.vbalex.cedulascr.MainActivity">
     android:text="@string/StartScanning" />
 
 <TextView
-    android:id="@+id/versions"
+    android:id="@+id/ver"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
 

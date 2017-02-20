@@ -36,8 +36,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView tvVersion = (TextView) findViewById(R.id.tvVersion);
-        tvVersion.setText(buildVersionString());
+        TextView ver = (TextView) findViewById(R.id.ver);
+        ver.setText(buildVersionString());
         this.db = new DBHelper(this);
         List<Persona> personas = this.db.getAll();
 
