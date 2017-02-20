@@ -11,7 +11,7 @@ En caso de algun error no duden en reportarlo, pronto esta subiendo un repositor
 
 
 #Codigo
-El archivo encargado de la decodificacion del codigo se llama CedulaCR, esta se conforma por la llave anteriormente mensionada y una funcion llamada parse que efectua la decodificacion, ademas esta optiene los trosos de informacion y lo devulve como una clases dummy para un manejo mas sensillo.
+El archivo encargado de la decodificacion del codigo se llama CedulaCR, este es una Classe de java que se conforma por la llave anteriormente mensionada y una funcion llamada 'parse' que efectua la decodificacion, ademas esta optiene los trosos de informacion y lo devulve como una clase dummy para un manejo mas sensillo de la informacion optenida.
 
 Codigo de la clase CedulaCR
 
