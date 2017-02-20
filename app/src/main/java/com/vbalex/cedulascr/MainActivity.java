@@ -27,11 +27,6 @@ import java.util.List;
 
 
 public class MainActivity extends Activity {
-
-    // demo license key for package com.microblink.barcode
-    // obtain your licence key at http://microblink.com/login or
-    // contact us at http://help.microblink.com
-    private static final String LICENSE_KEY = LicenciaMicroBlink.Licencia;
     private static final int MY_REQUEST_CODE = 1337;
 
     private DBHelper db;
@@ -100,7 +95,7 @@ public class MainActivity extends Activity {
         // key validation is performed on image processing thread in native code, all enabled recognizers
         // that are disallowed by licence key will be turned off without any error and information
         // about turning them off will be logged to ADB logcat.
-        intent.putExtra(Pdf417ScanActivity.EXTRAS_LICENSE_KEY, LICENSE_KEY);
+        intent.putExtra(Pdf417ScanActivity.EXTRAS_LICENSE_KEY, LicenciaMicroBlink.Licencia);
 
         // Pdf417RecognizerSettings define the settings for scanning plain PDF417 barcodes.
         Pdf417RecognizerSettings pdf417RecognizerSettings = new Pdf417RecognizerSettings();
