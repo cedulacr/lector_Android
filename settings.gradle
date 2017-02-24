@@ -1,1 +1,2 @@
-include ':app', ':LibPdf417Mobi'
+include ':zxing-android-embedded'
+include ':Lector'

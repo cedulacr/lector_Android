@@ -1,0 +1,890 @@
+[
+    {
+        "outputFile": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 71,
+                    "endOffset": 122
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 1037,
+                        "endColumn": 69,
+                        "endOffset": 1104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 127,
+                    "endColumn": 60,
+                    "endOffset": 183
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1107,
+                        "endColumn": 58,
+                        "endOffset": 1163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 188,
+                    "endColumn": 63,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 2,
+                        "startOffset": 1166,
+                        "endColumn": 61,
+                        "endOffset": 1225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 252,
+                    "endColumn": 64,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1228,
+                        "endColumn": 62,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 64,
+                    "endOffset": 377
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 632,
+                        "endColumn": 62,
+                        "endOffset": 692
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 382,
+                    "endColumn": 53,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 731,
+                        "endColumn": 51,
+                        "endOffset": 780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 436,
+                    "endColumn": 53,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 783,
+                        "endColumn": 51,
+                        "endOffset": 832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 490,
+                    "endColumn": 53,
+                    "endOffset": 539
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 835,
+                        "endColumn": 51,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 544,
+                    "endColumn": 58,
+                    "endOffset": 598
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 887,
+                        "endColumn": 56,
+                        "endOffset": 941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 603,
+                    "endColumn": 57,
+                    "endOffset": 656
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 980,
+                        "endColumn": 55,
+                        "endOffset": 1033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1482,
+                    "endColumn": 46,
+                    "endOffset": 1524
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 873,
+                        "endColumn": 44,
+                        "endOffset": 915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1529,
+                    "endColumn": 47,
+                    "endOffset": 1572
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 970,
+                        "endColumn": 45,
+                        "endOffset": 1013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1577,
+                    "endColumn": 41,
+                    "endOffset": 1614
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 632,
+                        "endColumn": 39,
+                        "endOffset": 669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1619,
+                    "endColumn": 48,
+                    "endOffset": 1663
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 720,
+                        "endColumn": 46,
+                        "endOffset": 764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1668,
+                    "endColumn": 51,
+                    "endOffset": 1715
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 767,
+                        "endColumn": 49,
+                        "endOffset": 814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1720,
+                    "endColumn": 57,
+                    "endOffset": 1773
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 817,
+                        "endColumn": 55,
+                        "endOffset": 870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1778,
+                    "endColumn": 49,
+                    "endOffset": 1823
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 672,
+                        "endColumn": 47,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1828,
+                    "endColumn": 53,
+                    "endOffset": 1877
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 918,
+                        "endColumn": 51,
+                        "endOffset": 967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1882,
+                    "endColumn": 58,
+                    "endOffset": 1936
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res-orig/values/zxing_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 632,
+                        "endColumn": 56,
+                        "endOffset": 686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1941,
+                    "endColumn": 46,
+                    "endOffset": 1983
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res-orig/values/zxing_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 689,
+                        "endColumn": 44,
+                        "endOffset": 731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1988,
+                    "endColumn": 143,
+                    "endOffset": 2127
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res-orig/values/zxing_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 734,
+                        "endColumn": 141,
+                        "endOffset": 873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2132,
+                    "endColumn": 112,
+                    "endOffset": 2240
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res-orig/values/zxing_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 876,
+                        "endColumn": 110,
+                        "endOffset": 984
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2245,
+                    "endLine": 32,
+                    "endColumn": 10,
+                    "endOffset": 2340
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res/values/zxing_themes.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 53,
+                        "endLine": 3,
+                        "endColumn": 10,
+                        "endOffset": 148
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 71,
+                    "endOffset": 122
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 1037,
+                        "endColumn": 69,
+                        "endOffset": 1104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 127,
+                    "endColumn": 60,
+                    "endOffset": 183
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1107,
+                        "endColumn": 58,
+                        "endOffset": 1163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 188,
+                    "endColumn": 63,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 2,
+                        "startOffset": 1166,
+                        "endColumn": 61,
+                        "endOffset": 1225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 252,
+                    "endColumn": 64,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1228,
+                        "endColumn": 62,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 64,
+                    "endOffset": 377
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 632,
+                        "endColumn": 62,
+                        "endOffset": 692
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 382,
+                    "endColumn": 53,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 731,
+                        "endColumn": 51,
+                        "endOffset": 780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 436,
+                    "endColumn": 53,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 783,
+                        "endColumn": 51,
+                        "endOffset": 832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 490,
+                    "endColumn": 53,
+                    "endOffset": 539
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 835,
+                        "endColumn": 51,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 544,
+                    "endColumn": 58,
+                    "endOffset": 598
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 887,
+                        "endColumn": 56,
+                        "endOffset": 941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 603,
+                    "endColumn": 57,
+                    "endOffset": 656
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_colors.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 980,
+                        "endColumn": 55,
+                        "endOffset": 1033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1482,
+                    "endColumn": 46,
+                    "endOffset": 1524
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 873,
+                        "endColumn": 44,
+                        "endOffset": 915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1529,
+                    "endColumn": 47,
+                    "endOffset": 1572
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 970,
+                        "endColumn": 45,
+                        "endOffset": 1013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1577,
+                    "endColumn": 41,
+                    "endOffset": 1614
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 632,
+                        "endColumn": 39,
+                        "endOffset": 669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1619,
+                    "endColumn": 48,
+                    "endOffset": 1663
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 720,
+                        "endColumn": 46,
+                        "endOffset": 764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1668,
+                    "endColumn": 51,
+                    "endOffset": 1715
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 767,
+                        "endColumn": 49,
+                        "endOffset": 814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1720,
+                    "endColumn": 57,
+                    "endOffset": 1773
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 817,
+                        "endColumn": 55,
+                        "endOffset": 870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1778,
+                    "endColumn": 49,
+                    "endOffset": 1823
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 672,
+                        "endColumn": 47,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1828,
+                    "endColumn": 53,
+                    "endOffset": 1877
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_ids.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 918,
+                        "endColumn": 51,
+                        "endOffset": 967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1882,
+                    "endColumn": 58,
+                    "endOffset": 1936
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res-orig/values/zxing_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 632,
+                        "endColumn": 56,
+                        "endOffset": 686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1941,
+                    "endColumn": 46,
+                    "endOffset": 1983
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res-orig/values/zxing_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 689,
+                        "endColumn": 44,
+                        "endOffset": 731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1988,
+                    "endColumn": 143,
+                    "endOffset": 2127
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res-orig/values/zxing_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 734,
+                        "endColumn": 141,
+                        "endOffset": 873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2132,
+                    "endColumn": 112,
+                    "endOffset": 2240
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res-orig/values/zxing_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 876,
+                        "endColumn": 110,
+                        "endOffset": 984
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2245,
+                    "endLine": 32,
+                    "endColumn": 10,
+                    "endOffset": 2340
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res/values/zxing_themes.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 53,
+                        "endLine": 3,
+                        "endColumn": 10,
+                        "endOffset": 148
+                    }
+                }
+            }
+        ]
+    }
+]

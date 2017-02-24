@@ -1,0 +1,164 @@
+[
+    {
+        "outputFile": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 46,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 46,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 151,
+                    "endColumn": 92,
+                    "endOffset": 239
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 92,
+                        "endOffset": 239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 244,
+                    "endColumn": 69,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 244,
+                        "endColumn": 69,
+                        "endOffset": 309
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 46,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 46,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 151,
+                    "endColumn": 92,
+                    "endOffset": 239
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 92,
+                        "endOffset": 239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 244,
+                    "endColumn": 69,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/build/intermediates/bundles/debug/res/values-zh-rHK/values-zh-rHK.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 244,
+                        "endColumn": 69,
+                        "endOffset": 309
+                    }
+                }
+            }
+        ]
+    }
+]

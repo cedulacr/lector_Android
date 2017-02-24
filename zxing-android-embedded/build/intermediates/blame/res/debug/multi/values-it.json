@@ -1,0 +1,164 @@
+[
+    {
+        "outputFile": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res-orig/values-it/zxing_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 632,
+                        "endColumn": 56,
+                        "endOffset": 686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 114,
+                    "endColumn": 46,
+                    "endOffset": 156
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res-orig/values-it/zxing_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 689,
+                        "endColumn": 44,
+                        "endOffset": 731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 172,
+                    "endOffset": 329
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res-orig/values-it/zxing_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 734,
+                        "endColumn": 170,
+                        "endOffset": 902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 334,
+                    "endColumn": 128,
+                    "endOffset": 458
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/zxing-android-embedded/zxing-android-embedded/res-orig/values-it/zxing_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 905,
+                        "endColumn": 126,
+                        "endOffset": 1029
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res-orig/values-it/zxing_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 632,
+                        "endColumn": 56,
+                        "endOffset": 686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 114,
+                    "endColumn": 46,
+                    "endOffset": 156
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res-orig/values-it/zxing_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 689,
+                        "endColumn": 44,
+                        "endOffset": 731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 172,
+                    "endOffset": 329
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res-orig/values-it/zxing_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 734,
+                        "endColumn": 170,
+                        "endOffset": 902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 334,
+                    "endColumn": 128,
+                    "endOffset": 458
+                },
+                "from": {
+                    "file": "/home/alex/Documents/Android/CedulasCR/zxing-android-embedded/res-orig/values-it/zxing_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 905,
+                        "endColumn": 126,
+                        "endOffset": 1029
+                    }
+                }
+            }
+        ]
+    }
+]

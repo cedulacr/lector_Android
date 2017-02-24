@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CedulasCR.iml" filepath="$PROJECT_DIR$/CedulasCR.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LibPdf417Mobi/LibPdf417Mobi.iml" filepath="$PROJECT_DIR$/LibPdf417Mobi/LibPdf417Mobi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lector/Lector.iml" filepath="$PROJECT_DIR$/Lector/Lector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing-android-embedded/zxing-android-embedded.iml" filepath="$PROJECT_DIR$/zxing-android-embedded/zxing-android-embedded.iml" />
     </modules>
   </component>
 </project>

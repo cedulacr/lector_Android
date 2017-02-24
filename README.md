@@ -1,74 +1,161 @@
-# LectorCedulasCR
-Proyecto de Android Studio de app para lectura de cedulas de identifican de Costa Rica.
+# ZXing Android Embedded
 
-El codigo de barras de las Cedulas Costaricenses son de tipo PDF417(https://en.wikipedia.org/wiki/PDF417), y se encuentran codificadas por un algoritmo XOR(https://en.wikipedia.org/wiki/XOR_cipher), este tipo de codificacion tiene una llave, en este caso es de 17 entradas pero puede variar.
+Barcode scanning library for Android, using [ZXing][2] for decoding.
 
-Este proyecto esta basado en el ejemplo https://github.com/PDF417/pdf417-android/tree/master/Pdf417MobiDemo/pdf417MobiDemo de igual forma el decodificador debe funcionar con cualquier tipo de lector de barras PDF417.
-para crear tu propio proyecto sigue las instrucciones de aca: https://github.com/PDF417/pdf417-android#quickIntegration
+The project is loosely based on the [ZXing Android Barcode Scanner application][2], but is not affiliated with the official ZXing project.
 
-En caso de algun error no duden en reportarlo, pronto esta subiendo un repositorio para el framework IONICv2, esto para que sea multiplataforma, ademas de agregar documentacion interna a este repositorio.
+Features:
 
+1. Can be used via Intents (little code required).
+2. Can be embedded in an Activity, for advanced customization of UI and logic.
+3. Scanning can be performed in landscape or portrait mode.
+4. Camera is managed in a background thread, for fast startup time.
 
+A sample application is available in [Releases](https://github.com/journeyapps/zxing-android-embedded/releases).
 
-#Codigo
-El archivo encargado de la decodificacion del codigo se llama CedulaCR, este es una Classe de java que se conforma por la llave anteriormente mensionada y una funcion llamada 'parse' que efectua la decodificacion, ademas esta optiene los trosos de informacion y lo devulve como una clase dummy para un manejo mas sensillo de la informacion optenida.
+## Adding aar dependency with Gradle
 
-Codigo de la clase CedulaCR
+From version 3 this is a single library, supporting Gingerbread and later versions of Android
+(API level 9+). If you need support for earlier Android versions, use [version 2][4].
 
-```code
-public class CedulaCR {
-    private static byte[] keysArray = new byte[]{
-            (byte)0x27,
-            (byte)0x30,
-            (byte)0x04,
-            (byte)0xA0,
-            (byte)0x00,
-            (byte)0x0F,
-            (byte)0x93,
-            (byte)0x12,
-            (byte)0xA0,
-            (byte)0xD1,
-            (byte)0x33,
-            (byte)0xE0,
-            (byte)0x03,
-            (byte)0xD0,
-            (byte)0x00,
-            (byte)0xDf,
-            (byte)0x00
-    };
+Add the following to your build.gradle file:
 
-    public static Persona parse(byte[] raw){
-        String d= "";
-        int j = 0;
-        for (int i = 0; i < raw.length; i++) {
-            if (j == 17) {
-                j = 0;
-            }
-            char c = (char) (keysArray[j] ^ ((char) (raw[i])));
-            if((c+"").matches("^[a-zA-Z0-9]*$")){
-                d += c;
-            }else{
-                d +=' ';
-            }
-            j ++;
-        }
-        Persona p = new Persona();
-        try {
-            p.setCedula(d.substring(0, 9).trim());
-            p.setApellido1(d.substring(9, 35).trim());
-            p.setApellido2(d.substring(35, 61).trim());
-            p.setNombre(d.substring(61, 91).trim());
-            p.setGenero(d.charAt(91));
-            p.setFechaNacimiento(d.substring(92, 96)+"-"+d.substring(96, 98)+"-"+d.substring(98, 100));
-            p.setFechaVencimiento(d.substring(100, 104)+"-"+d.substring(104, 106)+"-"+d.substring(106, 108));
-        }catch (Exception e){
-            p = null;
-        }
-        return p;
-    }
+```groovy
+repositories {
+    jcenter()
 }
 
-  ```
-  
-  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-  
+dependencies {
+    compile 'com.journeyapps:zxing-android-embedded:3.4.0'
+    compile 'com.android.support:appcompat-v7:23.1.0'   // Version 23+ is required
+}
+
+android {
+    buildToolsVersion '23.0.2' // Older versions may give compile errors
+}
+
+```
+
+## Usage with IntentIntegrator
+
+Launch the intent with the default options:
+```java
+new IntentIntegrator(this).initiateScan(); // `this` is the current Activity
+
+
+// Get the results:
+@Override
+protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
+    if(result != null) {
+        if(result.getContents() == null) {
+            Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(this, "Scanned: " + result.getContents(), Toast.LENGTH_LONG).show();
+        }
+    } else {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+}
+```
+
+Use from a Fragment:
+```java
+IntentIntegrator.forFragment(this).initiateScan(); // `this` is the current Fragment
+
+// If you're using the support library, use IntentIntegrator.forSupportFragment(this) instead.
+```
+
+Customize options:
+```java
+IntentIntegrator integrator = new IntentIntegrator(this);
+integrator.setDesiredBarcodeFormats(IntentIntegrator.ONE_D_CODE_TYPES);
+integrator.setPrompt("Scan a barcode");
+integrator.setCameraId(0);  // Use a specific camera of the device
+integrator.setBeepEnabled(false);
+integrator.setBarcodeImageEnabled(true);
+integrator.initiateScan();
+```
+
+See [IntentIntegrator][5] for more options.
+
+### Changing the orientation
+
+To change the orientation, specify the orientation in your `AndroidManifest.xml` and let the `ManifestMerger` to update the Activity's definition.
+
+Sample:
+
+```xml
+<activity
+		android:name="com.journeyapps.barcodescanner.CaptureActivity"
+		android:screenOrientation="fullSensor"
+		tools:replace="screenOrientation" />
+```
+
+```java
+IntentIntegrator integrator = new IntentIntegrator(this);
+integrator.setOrientationLocked(false);
+integrator.initiateScan();
+```
+
+### Customization and advanced options
+
+See [EMBEDDING](EMBEDDING.md).
+
+For more advanced options, look at the [Sample Application](https://github.com/journeyapps/zxing-android-embedded/blob/master/sample/src/main/java/example/zxing/MainActivity.java),
+and browse the source code of the library.
+
+## Android Permissions
+
+The camera permission is required for barcode scanning to function. It is automatically included as
+part of the library. On Android 6 it is requested at runtime when the barcode scanner is first opened.
+
+When using BarcodeView directly (instead of via IntentIntegrator / CaptureActivity), you have to
+request the permission manually before calling `BarcodeView#resume()`, otherwise the camera will
+fail to open.
+
+## Building locally
+
+    ./gradlew assemble
+
+To deploy the artifacts the your local Maven repository:
+
+    ./gradlew publishToMavenLocal
+
+You can then use your local version by specifying in your `build.gradle` file:
+
+    repositories {
+        mavenLocal()
+    }
+
+## Sponsored by
+
+[JourneyApps][1] - Creating business solutions with mobile apps. Fast.
+
+
+## License
+
+Licensed under the [Apache License 2.0][7]
+
+	Copyright (C) 2012-2017 ZXing authors, Journey Mobile
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	    http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+
+
+
+[1]: http://journeyapps.com
+[2]: https://github.com/zxing/zxing/
+[3]: https://github.com/zxing/zxing/wiki/Scanning-Via-Intent
+[4]: https://github.com/journeyapps/zxing-android-embedded/blob/2.x/README.md
+[5]: zxing-android-embedded/src/com/google/zxing/integration/android/IntentIntegrator.java
+[7]: http://www.apache.org/licenses/LICENSE-2.0
