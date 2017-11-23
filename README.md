@@ -62,8 +62,4 @@ public class CedulaCR {
             p.setFechaVencimiento(d.substring(100, 104)+"-"+d.substring(104, 106)+"-"+d.substring(106, 108));
         }catch (Exception e){
             p = null;
-        }
-        return p;
-    }
-}
 ```

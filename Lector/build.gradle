@@ -1,52 +1,28 @@
+
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '23.0.2'
-
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion project.androidTargetSdk
-        versionCode 340
-        versionName "3.4.0"
-    }
-
-    Properties properties = new Properties()
-    properties.load(project.rootProject.file('local.properties').newDataInputStream())
-    def keystoreFile = properties.getProperty('keystore.file')
-    def keystorePassword = properties.getProperty('keystore.password')
-    def keystoreAlias = properties.getProperty('keystore.alias')
-    def validConfig = keystoreFile != null && keystorePassword != null && keystoreAlias != null;
-
-    if(validConfig) {
-        System.out.println("Release signing configured with " + keystoreFile)
-        signingConfigs {
-            release {
-                storeFile project.rootProject.file(keystoreFile)
-                storePassword keystorePassword
-                keyAlias keystoreAlias
-                keyPassword keystorePassword
-            }
-        }
-    } else {
-        System.out.println("Specify keystore.file, keystore.alias and keystore.password in local.properties to enable release signing.")
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
     }
 
     buildTypes {
         release {
-            if(validConfig) {
-                signingConfig signingConfigs.release
-            }
-
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-}
 
+}
 dependencies {
-    // If you use this from an external project, use the following instead:
-    //   compile 'com.journeyapps:zxing-android-embedded:<version>'
-    compile project(':zxing-android-embedded')
-    compile 'com.android.support:appcompat-v7:23.1.0'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.journeyapps:zxing-android-embedded:3.5.0'
 }

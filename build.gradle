@@ -1,27 +1,17 @@
 buildscript {
     repositories {
         jcenter()
-        maven { url 'https://jitpack.io' }  // for sdk-manager-plugin
+        google()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
-        classpath 'com.github.JakeWharton:sdk-manager-plugin:220bf7a88a7072df3ed16dc8466fb144f2817070'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.0'
+        classpath 'com.android.tools.build:gradle:3.0.1'
     }
 }
-
-subprojects {
+allprojects {
     repositories {
+        google()
         jcenter()
         mavenLocal()
     }
-
-    version = '3.4.0'
-    group = 'com.journeyapps'
-    apply plugin: 'android-sdk-manager'
-
-    ext.androidBuildTools = '23.0.2'
-    ext.androidTargetSdk = 23
-    ext.zxingCore = 'com.google.zxing:core:3.2.1'
 }
