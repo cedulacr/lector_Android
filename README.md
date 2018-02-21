@@ -1,18 +1,18 @@
 # LectorCedulasCR
-Proyecto de Android Studio de app para lectura de cedulas de identifican de Costa Rica.
+Proyecto de Android Studio de app para lectura de cédulas de identificación de Costa Rica.
 
-El codigo de barras de las Cedulas Costaricenses son de tipo PDF417(https://en.wikipedia.org/wiki/PDF417), y se encuentran codificadas por un algoritmo XOR(https://en.wikipedia.org/wiki/XOR_cipher), este tipo de codificacion tiene una llave, en este caso es de 17 entradas pero puede variar.
+El código de barras de las Cédulas Costaricenses son de tipo PDF417(https://en.wikipedia.org/wiki/PDF417), y se encuentran codificadas por un algoritmo XOR(https://en.wikipedia.org/wiki/XOR_cipher), este tipo de codificación tiene una llave, en este caso es de 17 entradas pero puede variar.
 
 Este proyecto esta basado en el ejemplo https://github.com/journeyapps/zxing-android-embedded
 
-En caso de algun error no duden en reportarlo, pronto estare subiendo un repositorio para el framework IONICv2, esto para que sea multiplataforma, ademas de agregar documentacion interna a este repositorio.
+En caso de algún error no duden en reportarlo, pronto estare subiendo un repositorio para el framework IONICv2, esto para que sea multiplataforma, ademas de agregar documentación interna a este repositorio.
 
 
 
-#Codigo
-El archivo encargado de la decodificacion del codigo se llama CedulaCR, este es una Classe de java que se conforma por la llave anteriormente mensionada y una funcion llamada 'parse' que efectua la decodificacion, ademas esta optiene los trosos de informacion y lo devulve como una clase dummy para un manejo mas sensillo de la informacion optenida.
+#Código
+El archivo encargado de la decodificación del código se llama CedulaCR, este es una Classe de java que se conforma por la llave anteriormente mencionada y una función llamada 'parse' que efectua la decodificación, además esta obtiene los trozos de información y lo devulve como una clase _dummy_ para un manejo mas sencillo de la información obtenida.
 
-Codigo de la clase CedulaCR
+Código de la clase CedulaCR
 
 ```code
 public class CedulaCR {
