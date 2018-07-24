@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jul 24 16:18:29 CST 2018
+0.baseType=DIRECTORY
+0.base=D\:\\Documents\\Android\\android_LectorCedulas\\Lector\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1

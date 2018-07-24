@@ -1,0 +1,4 @@
+#Tue Jul 24 16:18:29 CST 2018
+base.0=D\:\\Documents\\Android\\android_LectorCedulas\\Lector\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
