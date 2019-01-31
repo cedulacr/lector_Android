@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CedulasCR.iml" filepath="$PROJECT_DIR$/CedulasCR.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibPdf417Mobi/LibPdf417Mobi.iml" filepath="$PROJECT_DIR$/LibPdf417Mobi/LibPdf417Mobi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LibPdf417Mobi/LibPdf417Mobi.iml" filepath="$PROJECT_DIR$/LibPdf417Mobi/LibPdf417Mobi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android_LectorCedulas.iml" filepath="$PROJECT_DIR$/android_LectorCedulas.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lector_Android.iml" filepath="$PROJECT_DIR$/lector_Android.iml" />
     </modules>
   </component>
 </project>

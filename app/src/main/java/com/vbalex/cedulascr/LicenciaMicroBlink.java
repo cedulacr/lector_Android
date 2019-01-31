@@ -9,5 +9,5 @@ public class LicenciaMicroBlink {
     // obtain your licence key at http://microblink.com/login or
     // contact us at http://help.microblink.com
     //Esta licencia la consigues en https://microblink.com/login tienen una version demo
-    public static String Licencia = "WMAVZS65-PDMCAUZM-LRBTPK4I-FROEXSO5-P2VQRFCZ-AWUSFAUC-QKBIFAUC-QKBNGX5Z";
+    public static String Licencia = "JNNUXWW2-7ZY7LWDX-HBPG3VWO-6EC2SIUC-QKBIFAUC-QKBIFAUC-QKBIFAUC-QKBNHHID ";
 }
